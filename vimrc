@@ -1,7 +1,11 @@
 scriptencoding utf-8
+
 silent! call pathogen#runtime_append_all_bundles()
 silent! call pathogen#helptags()
+
+set modelines=0
 set nocp
+
 let mapleader=","
 set encoding=utf-8
 set showmode
@@ -35,6 +39,8 @@ set showfulltag
 set shortmess+=ts
 
 colorscheme xoria256
+set vb
+set stl=%f\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
 
 
 nnoremap <silent> <Leader>fw :FufBuffer<CR>
@@ -44,4 +50,5 @@ nnoremap <silent> <Leader>ft :FufTag<CR>
 nnoremap <silent> <Leader>fq :FufQuickfix<CR>
 
 nmap <silent> <leader>/ :nohlsearch<CR>
-
+nnoremap / /\v
+vnoremap / /\v
