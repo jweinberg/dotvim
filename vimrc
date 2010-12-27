@@ -34,7 +34,7 @@ set showcmd
 set showfulltag
 set shortmess+=ts
 
-colorscheme koehler
+colorscheme xoria256
 
 
 nnoremap <silent> <Leader>fw :FufBuffer<CR>
