@@ -25,7 +25,8 @@ set ruler
 set backspace=eol,start,indent " backspace crosses newlines?
 set cpoptions+=$
 filetype plugin indent on
-
+let objc_syntax_for_h=1
+let filetype_m='objc'
 " use 4 space tabs and indents
 set tabstop=4
 set shiftwidth=4
@@ -37,6 +38,7 @@ set laststatus=2
 set showcmd
 set showfulltag
 set shortmess+=ts
+let g:CommandTMaxHeight=5
 
 colorscheme xoria256
 set vb
