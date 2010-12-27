@@ -44,6 +44,8 @@ colorscheme xoria256
 set vb
 set stl=%f\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
 
+map j gj
+map k gk
 
 nnoremap <silent> <Leader>fw :FufBuffer<CR>
 nnoremap <silent> <Leader>fj :FufFile<CR>
