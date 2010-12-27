@@ -1,4 +1,6 @@
 scriptencoding utf-8
+silent! call pathogen#runtime_append_all_bundles()
+silent! call pathogen#helptags()
 set nocp
 let mapleader=","
 set encoding=utf-8
@@ -17,7 +19,7 @@ set cmdheight=1
 set guioptions=acegi
 set ruler
 set backspace=eol,start,indent " backspace crosses newlines?
-
+set cpoptions+=$
 filetype plugin indent on
 
 " use 4 space tabs and indents
@@ -34,8 +36,6 @@ set shortmess+=ts
 
 colorscheme koehler
 
-silent! call pathogen#runtime_append_all_bundles()
-silent! call pathogen#helptags()
 
 nnoremap <silent> <Leader>fw :FufBuffer<CR>
 nnoremap <silent> <Leader>fj :FufFile<CR>

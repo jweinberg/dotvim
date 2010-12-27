@@ -4,3 +4,6 @@
 [submodule "bundle/vim-l9"]
 	path = bundle/vim-l9
 	url = https://github.com/clones/vim-l9.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
