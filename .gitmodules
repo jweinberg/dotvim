@@ -16,3 +16,12 @@
 [submodule "bundle/vim-AutoComplePop"]
 	path = bundle/vim-AutoComplePop
 	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "bundle/pythoncomplete"]
+	path = bundle/pythoncomplete
+	url = https://github.com/vim-scripts/pythoncomplete.git
+[submodule "bundle/cocoa"]
+	path = bundle/cocoa
+	url = https://github.com/vim-scripts/cocoa.vim.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/vim-scripts/snipMate.git

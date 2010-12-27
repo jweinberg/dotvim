@@ -28,6 +28,7 @@ set guioptions=acegi
 set ruler
 set backspace=eol,start,indent " backspace crosses newlines?
 set cpoptions+=$
+filetype plugin on
 filetype plugin indent on
 let objc_syntax_for_h=1
 let filetype_m='objc'
@@ -43,7 +44,7 @@ set showcmd
 set showfulltag
 set shortmess+=ts
 let g:CommandTMaxHeight=5
-
+set ofu=syntaxcomplete#Complete
 colorscheme xoria256
 set vb
 set stl=%f\ %m\ %r\ Line:\ %l/%L[%p%%]\ Col:\ %c\ Buf:\ #%n\ [%b][0x%B]
