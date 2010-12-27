@@ -6,6 +6,10 @@ silent! call pathogen#helptags()
 set modelines=0
 set nocp
 
+set wildmenu " turn on command line completion wild style
+set wildmode=longest " turn on wild mode huge list
+set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*.pyc,*.jpg,*.gif,*.png
+
 let mapleader=","
 set encoding=utf-8
 set showmode
